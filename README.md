@@ -2,7 +2,7 @@
 <h1><a href="https://websemantics.uk/articles/accessible-modal-dialog-popup-iframe/">Accessible modal dialog pop-up iframe (v4)</a></h1>
 
 Uses an anchor to launch a modal pop-up which is then populated with an <code>iframe</code>.<br>
-  This version allows modal title and description to be user defined from the HTML.
+This version allows modal title and description to be user defined from the HTML.
 
 CodePen demo: <a href="https://codepen.io/2kool2/pen/LkaXay">WCAG ARIA accessible pop-up iframe modal dialog (v4)</a>
 
