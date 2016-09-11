@@ -57,7 +57,7 @@ Add SVGs for the "close" and "loading" icons:
 ```
 
 Add data attributes to the link.
-<br><code>data-modal</code> is required but only has a value if different to the <code>href</code>
+<br><code>data-modal</code> is a requirement, it only needs a value if it's different to the <code>href</code>.
 <br><code>data-modalTitle</code> and <code>data-modalDesc</code> are optional.
 ```html
 <a
