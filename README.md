@@ -6,9 +6,8 @@ This version allows modal source, title and description to be user-defined in th
 
 <strong>Demo: <a href="https://codepen.io/2kool2/pen/LkaXay">WCAG ARIA accessible pop-up iframe modal dialog (v4)</a></strong>
 
-
+<br>
 ##Features
-
 
 *<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2 level AA with <abbr title="Accessible Rich Internet Applications">ARIA</abbr> support
 *Fully responsive, mobile-first approach.
@@ -22,7 +21,7 @@ This version allows modal source, title and description to be user-defined in th
 *Just a link is presented when JavaScript is unavailable.
 
 
-
+<br>
 ##In use
 
 
@@ -34,15 +33,16 @@ This version allows modal source, title and description to be user-defined in th
 
 
 
+<br>
 ##Caveats
 
 
 *This method neither raises or lowers accessibility barriers caused by the <code>iframe</code> content.
 *<b>Be absolutely certain the <code>iframe</code> doesn't trap the keyboard.</b>
 
+
+
 <br>
-
-
 ##Current status
 
 14/08/2016 - In cross-browser, cross-platform and cross-device testing.<br>
@@ -55,6 +55,7 @@ In the meantime, for video, use this instead:
 
 
 
+<br>
 ##Based on the workings of:
 
 
@@ -64,6 +65,7 @@ In the meantime, for video, use this instead:
 
 
 
+<br>
 ##Alternatives
 
 Let's mention alternate versions of modal pop-ups out there:
@@ -81,6 +83,7 @@ Let's mention alternate versions of modal pop-ups out there:
 
 
 
+<br>
 All in all nothing is ever perfect, just avoid using a heavy weight library / framework for something this simple.
 
 
