@@ -40,7 +40,7 @@ Link to the stylesheet:
 <link rel="stylesheet" href="css/styles.css">
 ```
 
-Add SVGs:
+Add SVGs for the "close" and "loading" icons:
 ```html
 
 <svg style="display:none">
