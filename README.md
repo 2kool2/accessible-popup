@@ -23,16 +23,6 @@ This version allows modal source, title and description to be user-defined in th
 
 
 <br>
-##In use
-
-* Add attribute <code>data-modal</code> to any link (best practice), or button, or tag (not recommended) to indicate "Launch in modal".
-* Give <code>data-modal</code> the URL of the <code>iframe</code> <code>src</code> if it's different to the link <code>href</code>.
-* The modal <code>title</code> may be user-defined by the optional data attribute <code>data-title=""</code>.
-  <br>Alternatively it will be taken from the link text, or the image <code>alt</code> text.
-* The modal description may also be user-defined by the data attribute <code>data-desc</code>.
-
-
-<br>
 ##To use
 
 Link to the stylesheet:
@@ -40,9 +30,8 @@ Link to the stylesheet:
 <link rel="stylesheet" href="css/styles.css">
 ```
 
-Add SVGs for the "close" and "loading" icons:
+Define SVGs for the "close" and "loading" icons:
 ```html
-
 <svg style="display:none">
   <defs>
     <symbol viewBox="0 0 38 38" id="icon-cross">
@@ -57,8 +46,9 @@ Add SVGs for the "close" and "loading" icons:
 ```
 
 Add data attributes to the link.
-<br><code>data-modal</code> is a requirement, it only needs a value if it's different to the <code>href</code>.
-<br><code>data-modalTitle</code> and <code>data-modalDesc</code> are optional.
+<br><code>data-modal</code> is a requirement, it only needs populating with a value if it's different to the <code>href</code> (Google maps or YouTube videos).
+<br><code>data-modalTitle</code> is optional and will be populated form the link text or image alt text if undefined.
+<br><code>data-modalDesc</code> is optional and defaults to "Tab or Shift + Tab to move focus".
 ```html
 <a
   class="lnk_modal-open"
