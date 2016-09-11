@@ -9,42 +9,6 @@ CodePen demo: <a href="https://codepen.io/2kool2/pen/LkaXay">WCAG ARIA accessibl
 Production ready version (encapuslated with external configuration and instantiation): <a href="https://websemantics.uk/articles/accessible-modal-dialog-popup-iframe/demo/">Modal Dialog demo</a>.
 
 
-<h2>Examples</h2>
-
-As link: &nbsp;
-  <a
-     class="lnk_modal-open"
-     data-modalTitle=""
-     data-modalDesc=""
-     href="https://www.google.com/maps/place/147+Wardour+St,+Soho,+London+W1F+8WD,+UK/@51.514197,-0.134724,16z/data=!4m5!3m4!1s0x487604d357825039:0xf0c170d8fa918a9b!8m2!3d51.5141967!4d-0.1347244?hl=en-GB"
-     data-modal="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4175.8218601402605!2d-0.1390235133502716!3d51.51397674271494!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d357825039%3A0xf0c170d8fa918a9b!2s147+Wardour+St%2C+Soho%2C+London+W1F+8WD%2C+UK!5e0!3m2!1sen!2sin!4v1468326690641">
-    Wine bar location (interactive map)
-  </a>
-
-
-As button: &nbsp;
-  <button
-          data-modal="https://www.google.com/maps/d/embed?mid=zA9_X1Tfn01s.kNe-p7G1WCjk">
-    Carrier bag (interactive map)
-  </button>
-
-
-As an image link: &nbsp;
-  <a
-     class="lnk_modal-open lnk_modal-img"
-     href="https://www.google.com/maps/place/147+Wardour+St,+Soho,+London+W1F+8WD,+UK/@51.514197,-0.134724,16z/data=!4m5!3m4!1s0x487604d357825039:0xf0c170d8fa918a9b!8m2!3d51.5141967!4d-0.1347244?hl=en-GB"
-     data-modal="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4175.8218601402605!2d-0.1390235133502716!3d51.51397674271494!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d357825039%3A0xf0c170d8fa918a9b!2s147+Wardour+St%2C+Soho%2C+London+W1F+8WD%2C+UK!5e0!3m2!1sen!2sin!4v1468326690641">
-    <img class="img_modal-open" src="img/map.png" alt="Tesco finest* wine bar location">
-  </a>
-
-
-As an image: &nbsp;
-    <img
-         src="img/map.png"
-         alt="Tesco finest* wine bar location"
-         data-modal="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4175.8218601402605!2d-0.1390235133502716!3d51.51397674271494!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d357825039%3A0xf0c170d8fa918a9b!2s147+Wardour+St%2C+Soho%2C+London+W1F+8WD%2C+UK!5e0!3m2!1sen!2sin!4v1468326690641">
-
-
 
 <h2>In use</h2>
 
@@ -55,13 +19,6 @@ As an image: &nbsp;
   <li>The modal description may also be overriden by the data attribute <code>data-desc</code>.</li>
 </ul>
 
-Example web page in a popup:
-  <a
-     class="lnk_modal-open"
-     href="https://websemantics.uk/articles/accessible-modal-dialog-popup-iframe/"
-     data-modal>
-    webSemantics article (web page)
-  </a>
 
 
 
@@ -93,22 +50,9 @@ Example web page in a popup:
 
 14/08/2016 - In cross-browser, cross-platform and cross-device testing.<br>To be followed with full access testing by <a href="http://www.digitalaccessibilitycentre.org/">Digital Accessibility Centre</a>.
 
-Currently resolving modal width &amp; height for a:
-  <a
-     class="lnk_modal-open"
-     href="https://pbs.twimg.com/profile_banners/752911976876179456/1468343984/1500x500"
-     data-modal>
-    Pop-up image
-  </a>
-
-
-Video doesn't stop / pause on exit:
-  <a
-     class="lnk_modal-open"
-     href="https://www.youtube.com/embed/lOUjUirKzM0"
-     data-modal>
-    Pop-up YouTube video
-  </a><br>Investigating&hellip;<br>In the meantime use this instead:
+Currently resolving modal width &amp; height for pop-up images.
+Video doesn't pause / stop on modal close. Investigating&hellip;
+In the meantime use this instead:
   <a href="http://codepen.io/2kool2/pen/dXEwEd">Button to embed video iframe (v2)</a>.
 
 
@@ -147,4 +91,3 @@ All in all nothing is ever perfect, just avoid using a heavy weight library / fr
 CodePen demo: <a href="https://codepen.io/2kool2/pen/LkaXay">WCAG ARIA accessible pop-up iframe modal dialog (v4)</a>
 
 Mike Foskett @ <a href="https://websemantics.uk/">webSemantics</a>
-# accessible-popup-iframe
