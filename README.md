@@ -33,10 +33,37 @@ This version allows modal source, title and description to be user-defined in th
 
 
 <br>
+##To use
+
+Link to the stylesheet:
+```html
+<link rel="stylesheet" href="css/styles.css">
+```
+
+Add data attributes to the link:
+```html
+<a
+  class="lnk_modal-open" href="https://www.google.com/maps/place/147+Wardour+St,+Soho,+London+W1F+8WD,+UK/@51.514197,-0.134724,16z/data=!4m5!3m4!1s0x487604d357825039:0xf0c170d8fa918a9b!8m2!3d51.5141967!4d-0.1347244?hl=en-GB"
+  data-modal="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4175.8218601402605!2d-0.1390235133502716!3d51.51397674271494!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d357825039%3A0xf0c170d8fa918a9b!2s147+Wardour+St%2C+Soho%2C+London+W1F+8WD%2C+UK!5e0!3m2!1sen!2sin!4v1468326690641"
+
+  data-modalTitle="Map location"
+  data-modalDesc=""
+          >
+            Wine bar location (interactive map)
+</a>
+```
+
+Add the script:
+```html
+<script src="js/accessible-popup.4.1.min.js"></script>
+```
+
+
+<br>
 ##Caveats
 
 * This method neither raises or lowers accessibility barriers caused by the <code>iframe</code> content.
-* <b>Be absolutely certain the <code>iframe</code> doesn't trap the keyboard.</b>
+* Be absolutely certain the <code>iframe</code> <b>doesn't trap the keyboard.</b>
 
 
 <br>
