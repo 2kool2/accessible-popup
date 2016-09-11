@@ -9,9 +9,9 @@ This version allows modal source, title and description to be user-defined in th
 <br>
 ##Features
 
-* All customisations are via inline HTML attributes and CSS.<br>No need to edit JavaScript.
+* All customisations are via inline HTML attributes and CSS. No need to edit JavaScript.
 * <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2 level AA with <abbr title="Accessible Rich Internet Applications">ARIA</abbr> support
-* Fully responsive, mobile-first approach.<br>Modal and <code>iframe</code>(s) resize with the window.
+* Fully responsive, mobile-first approach.<br>Modal and <code>iframe</code> resize with the window.
 * Lightweight, less than 1.8 KB to the browser with 1.5 KB CSS.
 * When opening; the focus is moved to modal content.
 * When closing; the focus is moved back to the activating link.
