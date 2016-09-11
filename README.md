@@ -9,27 +9,6 @@ CodePen demo: <a href="https://codepen.io/2kool2/pen/LkaXay">WCAG ARIA accessibl
 Production ready version (encapuslated with external configuration and instantiation): <a href="https://websemantics.uk/articles/accessible-modal-dialog-popup-iframe/demo/">Modal Dialog demo</a>.
 
 
-
-<h2>In use</h2>
-
-<ul>
-  <li>Add attribute <code>data-modal</code> to any link (best practice), or button, or tag (not recommended) to indicate "Launch in modal".</li>
-  <li>Give <code>data-modal</code> the url of the <code>iframe</code> <code>src</code> if it's different to the link <code>href</code>.</li>
-  <li>The modal <code>title</code> may be taken from the optional data attribute <code>data-title=""</code>, or the link text, or the image <code>alt</code> text.</li>
-  <li>The modal description may also be overriden by the data attribute <code>data-desc</code>.</li>
-</ul>
-
-
-
-
-<h2>Caveats</h2>
-
-<ul>
-  <li>This method neither raises or lowers accessibility barriers caused by the <code>iframe</code> content.</li>
-  <li>Be absolutely certain the <code>iframe</code> doesn't trap the keyboard.</li>
-</ul>
-
-
 <h2>Features</h2>
 
 <ul>
@@ -46,11 +25,29 @@ Production ready version (encapuslated with external configuration and instantia
 </ul>
 
 
+<h2>In use</h2>
+
+<ul>
+  <li>Add attribute <code>data-modal</code> to any link (best practice), or button, or tag (not recommended) to indicate "Launch in modal".</li>
+  <li>Give <code>data-modal</code> the url of the <code>iframe</code> <code>src</code> if it's different to the link <code>href</code>.</li>
+  <li>The modal <code>title</code> may be user-defined by the optional data attribute <code>data-title=""</code>.Alternatively it will be taken from the link text, or the image <code>alt</code> text.</li>
+  <li>The modal description may also be user-defined by the data attribute <code>data-desc</code>.</li>
+</ul>
+
+
+<h2>Caveats</h2>
+
+<ul>
+  <li>This method neither raises or lowers accessibility barriers caused by the <code>iframe</code> content.</li>
+  <li>Be absolutely certain the <code>iframe</code> doesn't trap the keyboard.</li>
+</ul>
+
+
 <h2>Current status</h2>
 
 14/08/2016 - In cross-browser, cross-platform and cross-device testing.<br>To be followed with full access testing by <a href="http://www.digitalaccessibilitycentre.org/">Digital Accessibility Centre</a>.
 
-Currently resolving modal width &amp; height for pop-up images.
+Currently resolving modal width & height for pop-up images.
 Video doesn't pause / stop on modal close. Investigating&hellip;
 In the meantime use this instead:
   <a href="http://codepen.io/2kool2/pen/dXEwEd">Button to embed video iframe (v2)</a>.
