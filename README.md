@@ -9,6 +9,7 @@ This version allows modal source, title and description to be user-defined in th
 <br>
 ##Features
 
+* All customisations are via inline HTML attributes and CSS.<br>No need to edit JavaScript.
 * <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2 level AA with <abbr title="Accessible Rich Internet Applications">ARIA</abbr> support
 * Fully responsive, mobile-first approach.<br>Modal and <code>iframe</code>(s) resize with the window.
 * Lightweight, less than 1.8 KB to the browser with 1.5 KB CSS.
@@ -18,7 +19,6 @@ This version allows modal source, title and description to be user-defined in th
 * While open; the document body is frozen (no scroll, no keychain).
 * While open; the <kbd>Esc</kbd> key closes the modal while on any focusable object (but not while inside the <code>iframe</code>).
 * Clicking on the lightbox also closes the modal.
-* All customisations are via inline HTML attributes and CSS.<br>No need to edit JavaScript.
 * Just a link is presented when JavaScript is unavailable.
 
 
