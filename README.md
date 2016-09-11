@@ -1,12 +1,10 @@
 
 <h1><a href="https://websemantics.uk/articles/accessible-modal-dialog-popup-iframe/">Accessible modal dialog pop-up iframe (v4)</a></h1>
 
-Uses an anchor to launch a modal pop-up which is then populated with an <code>iframe</code>.<br>
-This version allows modal title and description to be user defined from the HTML.
+Uses an anchor to launch a modal pop-up which is then populated with an <code>iframe</code> in an accessible manner.<br>
+This version allows modal source, title and description to be user-defined in the HTML.
 
-CodePen demo: <a href="https://codepen.io/2kool2/pen/LkaXay">WCAG ARIA accessible pop-up iframe modal dialog (v4)</a>
-
-Production ready version (encapuslated with external configuration and instantiation): <a href="https://websemantics.uk/articles/accessible-modal-dialog-popup-iframe/demo/">Modal Dialog demo</a>.
+<strong>Demo: <a href="https://codepen.io/2kool2/pen/LkaXay">WCAG ARIA accessible pop-up iframe modal dialog (v4)</a></strong>
 
 
 <h2>Features</h2>
@@ -29,8 +27,9 @@ Production ready version (encapuslated with external configuration and instantia
 
 <ul>
   <li>Add attribute <code>data-modal</code> to any link (best practice), or button, or tag (not recommended) to indicate "Launch in modal".</li>
-  <li>Give <code>data-modal</code> the url of the <code>iframe</code> <code>src</code> if it's different to the link <code>href</code>.</li>
-  <li>The modal <code>title</code> may be user-defined by the optional data attribute <code>data-title=""</code>.Alternatively it will be taken from the link text, or the image <code>alt</code> text.</li>
+  <li>Give <code>data-modal</code> the URL of the <code>iframe</code> <code>src</code> if it's different to the link <code>href</code>.</li>
+  <li>The modal <code>title</code> may be user-defined by the optional data attribute <code>data-title=""</code>.
+  Alternatively it will be taken from the link text, or the image <code>alt</code> text.</li>
   <li>The modal description may also be user-defined by the data attribute <code>data-desc</code>.</li>
 </ul>
 
@@ -39,18 +38,19 @@ Production ready version (encapuslated with external configuration and instantia
 
 <ul>
   <li>This method neither raises or lowers accessibility barriers caused by the <code>iframe</code> content.</li>
-  <li>Be absolutely certain the <code>iframe</code> doesn't trap the keyboard.</li>
+  <li><b>Be absolutely certain the <code>iframe</code> doesn't trap the keyboard.</b></li>
 </ul>
 
 
 <h2>Current status</h2>
 
-14/08/2016 - In cross-browser, cross-platform and cross-device testing.<br>To be followed with full access testing by <a href="http://www.digitalaccessibilitycentre.org/">Digital Accessibility Centre</a>.
+14/08/2016 - In cross-browser, cross-platform and cross-device testing.
+To be followed with full access testing by <a href="http://www.digitalaccessibilitycentre.org/">Digital Accessibility Centre</a>.
 
 Currently resolving modal width & height for pop-up images.
 Video doesn't pause / stop on modal close. Investigating&hellip;
-In the meantime use this instead:
-  <a href="http://codepen.io/2kool2/pen/dXEwEd">Button to embed video iframe (v2)</a>.
+In the meantime, for video, use this instead:
+  <a href="http://codepen.io/2kool2/pen/dXEwEd">Embed video iframe</a>.
 
 
 
@@ -86,5 +86,7 @@ All in all nothing is ever perfect, just avoid using a heavy weight library / fr
 
 
 CodePen demo: <a href="https://codepen.io/2kool2/pen/LkaXay">WCAG ARIA accessible pop-up iframe modal dialog (v4)</a>
+
+Encapuslated with external configuration and instantiation: <a href="https://websemantics.uk/articles/accessible-modal-dialog-popup-iframe/demo/">Modal Dialog demo</a>.
 
 Mike Foskett @ <a href="https://websemantics.uk/">webSemantics</a>
