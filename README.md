@@ -122,4 +122,5 @@ CodePen demo: <a href="https://codepen.io/2kool2/pen/LkaXay">WCAG ARIA accessibl
 
 Encapuslated with external configuration and instantiation: <a href="https://websemantics.uk/articles/accessible-modal-dialog-popup-iframe/demo/">Modal Dialog demo</a>.
 
+<hr>
 Mike Foskett @ <a href="https://websemantics.uk/">webSemantics</a>
