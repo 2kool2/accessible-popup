@@ -4,13 +4,13 @@
 Uses an anchor to launch a modal pop-up which is then populated with an <code>iframe</code> in an accessible manner.<br>
 This version allows modal source, title and description to be user-defined in the HTML.
 
-<strong>Demo: <a href="https://codepen.io/2kool2/pen/LkaXay">WCAG ARIA accessible pop-up iframe modal dialog (v4)</a></strong>
+<strong>Demo: <a href="https://codepen.io/2kool2/pen/LkaXay">WAI-ARIA accessible pop-up iframe modal dialog (v4)</a></strong>
 
 <br>
 ##Features
 
 * All customisations are via inline HTML attributes and CSS. No need to edit JavaScript.
-* <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2 level AA with <abbr title="Accessible Rich Internet Applications">ARIA</abbr> support
+* <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2 level AA with WAI-<abbr title="Accessible Rich Internet Applications">ARIA</abbr> support
 * Fully responsive, mobile-first approach.<br>Modal and <code>iframe</code> resize with the window.
 * Lightweight, less than 1.8 KB to the browser with 1.5 KB CSS.
 * When opening; the focus is moved to modal content.
