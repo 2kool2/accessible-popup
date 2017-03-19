@@ -1,5 +1,5 @@
 
-#<a href="https://websemantics.uk/articles/accessible-modal-dialog-popup-iframe/">Accessible modal dialog pop-up iframe (v4)</a>
+<h1><a href="https://websemantics.uk/articles/accessible-modal-dialog-popup-iframe/">Accessible modal dialog pop-up iframe (v4)</a></h1>
 
 Uses an anchor to launch a modal pop-up which is then populated with an <code>iframe</code> in an accessible manner.<br>
 This version allows modal source, title and description to be user-defined in the HTML.
@@ -7,7 +7,7 @@ This version allows modal source, title and description to be user-defined in th
 <strong>Demo: <a href="https://codepen.io/2kool2/pen/LkaXay">WAI-ARIA accessible pop-up iframe modal dialog (v4)</a></strong>
 
 <br>
-##Features
+<h2>Features</h2>
 
 * All customisations are via inline HTML attributes and CSS. No need to edit JavaScript.
 * <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2 level AA with WAI-<abbr title="Accessible Rich Internet Applications">ARIA</abbr> support
@@ -23,7 +23,7 @@ This version allows modal source, title and description to be user-defined in th
 
 
 <br>
-##Basic usage
+<h2>Basic usage</h2>
 
 Link to the stylesheet:
 ```html
@@ -69,14 +69,14 @@ Add the script:
 
 
 <br>
-##Caveats
+<h2>Caveats</h2>
 
 * This method neither raises or lowers accessibility barriers caused by the <code>iframe</code> content.
 * Be absolutely certain the <code>iframe</code> <b>doesn't trap the keyboard.</b>
 
 
 <br>
-##Current status
+<h2>Current status</h2>
 
 14/08/2016 - In cross-browser, cross-platform and cross-device testing.<br>
 To be followed with full access testing by <a href="http://www.digitalaccessibilitycentre.org/">Digital Accessibility Centre</a>.
@@ -88,7 +88,7 @@ Currently resolving modal width & height for pop-up images, and video doesn't pa
 
 
 <br>
-##Based on the workings of:
+<h2>Based on the workings of:</h2>
 
 * Greg Kraus: <a href="https://accessibility.oit.ncsu.edu/training/aria/modal-window/version-3/">The incredible accessible modal window v3</a>
 * Marco Zehe: <a href="https://www.marcozehe.de/2015/02/05/advanced-aria-tip-2-accessible-modal-dialogs/">Accessible modal dialogs</a>
@@ -97,7 +97,7 @@ Currently resolving modal width & height for pop-up images, and video doesn't pa
 
 
 <br>
-##Alternatives
+<h2>Alternatives</h2>
 
 Let's mention alternate versions of modal pop-ups out there:
 
